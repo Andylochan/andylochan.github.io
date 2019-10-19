@@ -19,6 +19,11 @@ body {
   font-weight: 500;
 }
 
+.navbar-nav .nav-link {
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
 #center-landing {
     position: absolute;
     top: 50%;
@@ -52,6 +57,8 @@ body {
 
 #mainNavbar .nav-link:hover {
     color: #ea1c2c;
+    border-bottom: solid;
+    border-bottom-width: medium;
 }
 
 #headingGroup span {
