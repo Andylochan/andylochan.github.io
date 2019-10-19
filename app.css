@@ -21,17 +21,19 @@ body {
 
 #center-landing {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 5.5rem;
+    z-index: -1;
 }
 
 #social-banner {
     background: #000;
     padding: 2.5rem;
     text-align: center;
+    color: #fff;
 }
 
 #mainNavbar {
