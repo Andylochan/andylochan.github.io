@@ -10,7 +10,6 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
 
-
 /* ---- particles.js config ---- */
 particlesJS("particles-js", {
   "particles": {
@@ -123,9 +122,7 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-
 /* ---- stats.js config ---- */
-
 var count_particles, stats, update;
 stats = new Stats;
 stats.setMode(0);
