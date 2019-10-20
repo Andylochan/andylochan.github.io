@@ -58,14 +58,25 @@ body {
   color: #fff;
 }
 
-#center-landing {
+.center-landing {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 5.5rem;
     z-index: -1;
+    text-align: center;
+}
+
+@media (max-width: 770px) {
+  .center-landing {
+    color: #fff;
+    font-size: 2.0rem;
+    text-align: center;
+    top: -1.2rem;
+    padding-top: 5rem;
+  }
 }
 
 #social-banner {
@@ -113,10 +124,6 @@ body {
 }
 
 @media (max-width: 400px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 3rem;
-    }
 
     /* Particals  */
     canvas {
