@@ -3,6 +3,35 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.btn-circle i {
+  position: relative;
+  top: 0rem;
+  font-size: 1.5rem;
+}
+
+.btn-circle-lg {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 1.1rem;
+}
+
+.btn-circle-xl {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 1.3rem;
+}
+
 .img-fluid {
   padding-right:0;
   padding-left:0;
@@ -20,17 +49,13 @@ body {
 }
 
 .navbar-nav .nav-link {
-    margin-right: 35%;
-    margin-left: 35%;
+    margin-right: 7rem;
+    margin-left: 7rem;
 }
 
 .page-footer {
   background: #ea1c2c;
   color: #fff;
-}
-
-#foot-bot {
-  background: rgb(214,08,24); /* similiar to #ea1c2c */
 }
 
 #center-landing {
@@ -48,6 +73,14 @@ body {
     padding: 2.5rem;
     text-align: center;
     color: #fff;
+}
+
+#foot-bot {
+  background: rgb(214,08,24); /* similiar to #ea1c2c */
+}
+
+#foot-bot-email {
+  font-size: 1.2rem;
 }
 
 #mainNavbar {
