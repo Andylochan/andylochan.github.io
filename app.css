@@ -24,6 +24,15 @@ body {
     margin-left: 35%;
 }
 
+.page-footer {
+  background: #ea1c2c;
+  color: #fff;
+}
+
+#foot-bot {
+  background: rgb(214,08,24); /* similiar to #ea1c2c */
+}
+
 #center-landing {
     position: absolute;
     top: 50%;
