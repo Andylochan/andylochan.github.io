@@ -14,7 +14,7 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 200, //380
+      "value": 200, //380//200
       "density": {
         "enable": true,
         "value_area": 1920
@@ -88,7 +88,7 @@ particlesJS("particles-js", {
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true

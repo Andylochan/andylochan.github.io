@@ -3,6 +3,22 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+div {
+  display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.text-red {
+  color: #ea1c2c;
+}
+
+.text-700 {
+  font-weight: 700;
+}
+
 .center-particles {
   position: relative;
   overflow: hidden;
@@ -43,6 +59,20 @@ body {
   .center-text h1 {
     font-size: 1.5rem;
   }
+}
+
+.about-container {
+  background-color: #fff;
+}
+
+.profile-round-container {
+  text-align: center;
+}
+
+.profile-round {
+  border-radius: 100%;
+  width:20rem;
+  height:20rem;
 }
 
 .btn-circle {
@@ -110,6 +140,12 @@ body {
   box-shadow: none;
 }
 
+.card-body {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
 .page-footer {
   background: #ea1c2c;
   color: #fff;
@@ -138,11 +174,6 @@ body {
     font-weight: 100;
 }
 
-/* #mainNavbar .navbar-brand{
-    color: #ea1c2c;
-    font-size: 1.5rem;
-} */
-
 #mainNavbar .nav-link {
     color: white;
 }
@@ -151,15 +182,6 @@ body {
     color: #ea1c2c;
     border-bottom: solid;
     border-bottom-width: medium;
-}
-
-#headingGroup span {
-    color: #ea1c2c
-}
-
-#headingGroup h1 {
-    font-weight: 100;
-    font-size: 3.5rem;
 }
 
 @media (max-width: 400px) {
