@@ -14,11 +14,13 @@ body {
 
 .center-text h1 {
   padding-bottom: 7.5rem;
+  font-size: 3.0rem;
 }
 
 .center-text p span{
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.0rem;
 }
 
 .center-text p, .center-text h1 {
@@ -30,6 +32,17 @@ body {
   transform: translate(-50%, -50%);
   color: #fff;
   z-index: -1;
+  /* font-size: 1rem; */
+}
+
+@media (max-width: 992px) {
+  .center-text p span {
+    display: flex;
+    justify-content: center;
+  }
+  .center-text h1 {
+    font-size: 1.5rem;
+  }
 }
 
 .btn-circle {
@@ -88,22 +101,14 @@ body {
     margin-left: 7rem;
 }
 
-/* .center-landing {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 5.5rem;
-    z-index: -1;
-    text-align: center;
-} */
-/*
-@media (max-width: 990px) {
-  .center-landing {
-    color: #333;
-  }
-}  */
+.navbar-dark .navbar-toggler {
+  border-color: rgba(0,0,0,0);
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
 
 .page-footer {
   background: #ea1c2c;
@@ -133,10 +138,10 @@ body {
     font-weight: 100;
 }
 
-#mainNavbar .navbar-brand{
+/* #mainNavbar .navbar-brand{
     color: #ea1c2c;
     font-size: 1.5rem;
-}
+} */
 
 #mainNavbar .nav-link {
     color: white;
