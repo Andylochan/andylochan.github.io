@@ -1,6 +1,7 @@
 body {
     background: #333;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 div {
@@ -13,6 +14,14 @@ li {
 
 .text-red {
   color: #ea1c2c;
+}
+
+.text-500 {
+  font-weight: 500;
+}
+
+.text-600 {
+  font-weight: 600;
 }
 
 .text-700 {
@@ -151,6 +160,23 @@ li {
   color: #fff;
 }
 
+#resume {
+  width: 17%;
+  height: 17%;
+  filter:invert(100%);
+}
+
+#github {
+  width: 12%;
+  height: 12%
+}
+
+#linkedin {
+  width: 15%;
+  height: 15%;
+  filter: brightness(1000%);
+}
+
 #social-banner {
     background: #111;
     padding: 2.5rem;
@@ -176,6 +202,12 @@ li {
 
 #mainNavbar .nav-link {
     color: white;
+}
+
+@media (max-width: 992px) {
+  #mainNavbar .nav-link {
+    background-color: #111;
+  }
 }
 
 #mainNavbar .nav-link:hover {
