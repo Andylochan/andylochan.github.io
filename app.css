@@ -33,13 +33,16 @@ li {
   overflow: hidden;
   width: 100%;
   max-height: 40.6rem;
-  /* background-color: #fff; */
+  /* background-color: #ea1c2c; */
+  background-image: url("imgs/IMG_0662.JPG");
+  background-size: cover;
+  background-position: bottom;
   z-index: 1;
 }
 
 .center-text h1 {
   padding-bottom: 7.5rem;
-  font-size: 3.0rem;
+  font-size: 3.45rem;
 }
 
 .center-text p span{
@@ -70,6 +73,17 @@ li {
   }
 }
 
+.low-center-button {
+  max-width: 30rem;
+  text-align: center;
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 1;
+}
+
 .about-container {
   background-color: #fff;
 }
@@ -82,6 +96,15 @@ li {
   border-radius: 100%;
   width:20rem;
   height:20rem;
+}
+
+.soc-link:hover {
+  filter: grayscale(00%)
+          brightness(40%)
+          sepia(100%)
+          hue-rotate(-50deg)
+          saturate(600%)
+          contrast(1.5);
 }
 
 .btn-circle {
@@ -131,10 +154,6 @@ li {
     transition: background 1s;
 }
 
-.navbar-brand {
-  font-weight: 500;
-}
-
 .navbar-nav .nav-link {
     margin-right: 7rem;
     margin-left: 7rem;
@@ -161,20 +180,24 @@ li {
 }
 
 #resume {
-  width: 17%;
-  height: 17%;
+  width: 16%;
+  height: 16%;
   filter:invert(100%);
+  margin-right: 10%;
 }
 
 #github {
-  width: 12%;
-  height: 12%
+  width: 15%;
+  height: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #linkedin {
   width: 15%;
   height: 15%;
   filter: brightness(1000%);
+  margin-left: 10%;
 }
 
 #social-banner {
@@ -202,6 +225,7 @@ li {
 
 #mainNavbar .nav-link {
     color: white;
+    font-weight: 500;
 }
 
 @media (max-width: 992px) {
@@ -417,10 +441,3 @@ li {
     clip-path: inset(2rem);
   }
 }
-
-/*
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
-}
-*/
