@@ -4,6 +4,10 @@ body {
     font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+ }
+
 div {
   display: block;
 }
@@ -34,7 +38,8 @@ li {
   width: 100%;
   max-height: 40.6rem;
   /* background-color: #ea1c2c; */
-  background-image: url("imgs/IMG_0662.JPG");
+  background-color: #222;
+  /* background-image: url("imgs/LRE2d.jpg"); */
   background-size: cover;
   background-position: bottom;
   z-index: 1;
@@ -150,17 +155,17 @@ li {
 }
 
 .navbar.scrolled {
-    background: rgb(30,30,30);
-    transition: background 1s;
+  background: #111;
+  transition: background 1s;
 }
 
 .navbar-nav .nav-link {
-    margin-right: 7rem;
-    margin-left: 7rem;
+  margin-right: 7rem;
+  margin-left: 7rem;
 }
 
 .navbar-dark .navbar-toggler {
-  border-color: rgba(0,0,0,0);
+  border-color: rgba(255,0,0,0);
 }
 
 .navbar-toggler:focus, .navbar-toggler:active {
@@ -431,6 +436,14 @@ li {
     -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
   }
+
+  .portfolio-concept {
+    height:15rem;
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
   .portfolio-item:hover img {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
