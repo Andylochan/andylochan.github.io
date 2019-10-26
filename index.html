@@ -16,7 +16,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navLinks">
-        <ul class="navbar-nav mx-auto nav-fill w-100">
+        <ul class="navbar-nav mx-auto nav-fill w-0">
           <li class="nav-item">
             <a href="#about" class="nav-link">ABOUT</a>
           </li>
@@ -34,7 +34,7 @@
     <!-- Particles.js container -->
     <div id="particles-js" class="center-particles">
       <div class="center-text">
-        <h1 class="text-600">Andy Lochan</h1>
+        <h1 class="text-600">Hi, I'm <span id="andy-center">Andy</span></h1>
         <p><span>Software Developer</span><span>Designer</span><span>Photographer</span></p>
       </div>
       <div class="low-center-button">
@@ -46,7 +46,7 @@
     <section>
       <div id="social-banner" class="container-fluid">
         <div class="container">
-            <h1 style="font-size: 20px; color: #ea1c2c; padding-bottom: 1rem"> SITE UNDER DEVELOPMENT </h1>
+            <!-- <h1 style="font-size: 20px; color: #ea1c2c; padding-bottom: 1rem"> SITE UNDER DEVELOPMENT </h1> -->
             <a href="#" class="soc-link"><img id="resume" src="imgs/resumeLogo.png"></a>
             <a href="https://github.com/Andylochan" class="soc-link"><img id="github" src="imgs/githubLogo.png"></a>
             <a href="https://www.linkedin.com/in/andy-lochan-171860188/" class="soc-link"><img id="linkedin" src="imgs/linkedin.png"></a>
@@ -62,16 +62,16 @@
             <div class="row align-items-center">
                <div class="col-md-6">
                   <h1 class="pb-4 text-600">About Me</h1>
-                  <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugia
-                    qui officia deserunt mollit anim id est laborum.</p>
+                  <p class="pt-3">
+                  <h6><b>Andy Lochan</b> | 22 Years Old | Born and raised in NYC </h6>
+                  <h6><br><i class="fas fa-graduation-cap"></i>  B.S Computer Science - Hofstra University </h6>
+                  <br>
+                       I am a recent college graduate looking for entry-level front-end web dev / design roles in which I can showcase and grow my skills.
+                       I'm an ambitious developer who strives to create excellent preforming and intuitive applications.
+                       I like to keep things minimal, aesthetically pleasing, and most importantly functional.
+                       I take a lot of pride in my work because the one thing I love the most is creating!
+                       Whether it be building custom gaming PCs, editing photos from my photo shoots, or coding my applications, I always give it my all!
+                  </p>
                 </div>
                 <div class="profile-round-container col-md-6 pt-5">
                     <img class="img-fluid profile-round" src="https://images.unsplash.com/photo-1537815749002-de6a533c64db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
@@ -81,9 +81,7 @@
 
                 <div class="col-lg-12 pt-5">
                   <h1 class="pb-2 text-600">Expertise</h1>
-                  <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                  <p class="pt-1"></p>
                 </div>
 
                 <div class="col-lg-6 pt-2">
@@ -98,12 +96,14 @@
                     <li>SQlite/MongoDB</li>
                     <li>Mac/Windows/Linux</li>
                     <li>git/Github</li>
+                    <li>REST</li>
+                    <li>Heroku</li>
                   </ul>
                 </div>
 
-                <div class="col-lg-6 pt-2">
+                <div class="col-lg-6 pb-4">
                   <h4 class="pb-2">Languages</h4>
-                  <ul class="pb-4">
+                  <ul class="pb-5">
                     <li>HTML 5</li>
                     <li>CSS 3</li>
                     <li>Javascript</li>
@@ -124,7 +124,7 @@
     <section class="content-section py-5" id="portfolio">
       <div class="container pb-5">
         <div class="content-section-heading text-center">
-          <h1 class="mb-5">Recent Projects</h1>
+          <h1 class="text-600 mb-5">Recent Projects</h1>
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6">
@@ -132,7 +132,7 @@
               <span class="caption">
                 <span class="caption-content">
                   <h2>RushHour</h2>
-                  <p class="mb-0">Description Desc Desc etc.</p>
+                  <p class="mb-0">Obstacle dodging game - Swift</p>
                 </span>
               </span>
               <img class="img-fluid" src="imgs/photo1.jpeg" alt="">
@@ -143,7 +143,7 @@
               <span class="caption">
                 <span class="caption-content">
                   <h2>exPose</h2>
-                  <p class="mb-0">Description Desc Desc etc.</p>
+                  <p class="mb-0">Photo sorting / analysis app - Swift</p>
                 </span>
               </span>
               <img class="img-fluid" src="imgs/photo2.jpeg" alt="">
@@ -153,11 +153,11 @@
             <a class="portfolio-item" href="#">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Concepts</h2>
-                  <p class="mb-0">Description Desc Desc etc.</p>
+                  <h2>YelpCamp</h2>
+                  <p class="mb-0">A site to rate campgrounds - Node.js </p>
                 </span>
               </span>
-              <img class="img-fluid" src="imgs/photo3.jpeg" alt="">
+              <img class="img-fluid" src="imgs/photo5.jpeg" alt="">
             </a>
           </div>
           <div class="col-lg-6">
@@ -165,10 +165,21 @@
               <span class="caption">
                 <span class="caption-content">
                   <h2>MemoryMatch</h2>
-                  <p class="mb-0">Description Desc Desc etc.</p>
+                  <p class="mb-0">A simple puzzle game - Swift</p>
                 </span>
               </span>
               <img class="img-fluid" src="imgs/photo4.jpeg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Mockups</h2>
+                  <p class="mb-0">Design concepts </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="imgs/photo6.jpeg" alt="">
             </a>
           </div>
         </div>
@@ -180,9 +191,9 @@
     <footer id="contact" class="page-footer pt-4">
       <div class="container">
         <ul class="list-unstyled list-inline text-center py-2">
-          <h2 class="pt-3">Contact</h2>
+          <h2 class="text-600 pt-3">Contact</h2>
           <li class="list-inline-item p-3">
-            <a href="#!" id="foot-bot-email" class="btn btn-outline-light"><i class="far fa-envelope"></i> andylochan97@gmail.com</a>
+            <a href="#!" id="foot-bot-email" class="btn btn-light"><i class="far fa-envelope"></i> andylochan97@gmail.com</a>
           </li>
         </ul>
         <ul class="list-unstyled list-inline text-center pb-3">

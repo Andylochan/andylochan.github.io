@@ -17,9 +17,8 @@ li {
 }
 
 .text-red {
-  color: #ea1c2c;
+  color: #ff751a;
 }
-/* #ff751a orange */
 
 .text-500 {
   font-weight: 500;
@@ -31,6 +30,10 @@ li {
 
 .text-700 {
   font-weight: 700;
+}
+
+.text-shadow {
+  text-shadow: 0.15rem 0.15rem #444;
 }
 
 .center-particles {
@@ -105,12 +108,12 @@ li {
 }
 
 .soc-link:hover {
-  filter: grayscale(00%)
-          brightness(40%)
+  filter: invert(80%);
+          /* brightness(40%)
           sepia(100%)
-          hue-rotate(-50deg)
+          hue-rotate(-40deg)
           saturate(600%)
-          contrast(1.5);
+          contrast(1.5); */
 }
 
 .btn-circle {
@@ -181,13 +184,18 @@ li {
 }
 
 .page-footer {
-  background: #ea1c2c;
+  background: #ff751a;
   color: #fff;
 }
 
+.center-text h1 #andy-center {
+  color: #ec6a13;
+  z-index: 2;
+}
+
 #resume {
-  width: 16%;
-  height: 16%;
+  width: 15%;
+  height: 15%;
   filter:invert(100%);
   margin-right: 10%;
 }
@@ -207,14 +215,14 @@ li {
 }
 
 #social-banner {
-    background: #111;
+    background: #ff751a;
     padding: 2.5rem;
     text-align: center;
     color: #fff;
 }
 
 #foot-bot {
-  background: rgb(214,08,24); /* similiar to #ea1c2c */
+  background: rgb(255,102,0); /* slightly darker shade */
 }
 
 #foot-bot-email {
@@ -241,7 +249,7 @@ li {
 }
 
 #mainNavbar .nav-link:hover {
-    color: #ea1c2c;
+    color: #ff751a;
     border-bottom: solid;
     border-bottom-width: medium;
 }
@@ -440,17 +448,20 @@ li {
 
   .portfolio-concept {
     height:15rem;
-    background: #FF512F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   .portfolio-item:hover img {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+
+  /* .portfolio-item:hover {
+    background: #111;
+    transition: background 1s;
+  } */
+
   .portfolio-item:hover .caption {
-    background-color: rgba(234, 28, 44, 0.85); /* RED PROJECT HOVER */
+    background-color: rgba(255, 117, 26, 0.65); /* RED PROJECT HOVER */
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
