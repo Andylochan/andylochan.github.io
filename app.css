@@ -69,7 +69,7 @@ li {
   transform: translate(-50%, -50%);
   color: #fff;
   z-index: -1;
-  /* font-size: 1rem; */
+  font-size: 4.7rem;
 }
 
 @media (max-width: 992px) {
@@ -158,9 +158,14 @@ li {
   margin-left:auto
 }
 
+/* placeholder for static background */
+.navbar-scrollnull {
+  background: #222;
+}
+
 .navbar.scrolled {
-  background: #111;
-  transition: background 1s;
+  background: #222;
+  transition: background 0.5s;
 }
 
 .navbar-nav .nav-link {
@@ -244,7 +249,7 @@ li {
 
 @media (max-width: 992px) {
   #mainNavbar .nav-link {
-    background-color: #111;
+    background-color: #222;
   }
 }
 
@@ -415,13 +420,13 @@ li {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 992px) {
