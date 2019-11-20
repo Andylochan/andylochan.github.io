@@ -160,7 +160,7 @@ li {
 
 /* placeholder for static background */
 .navbar-scrollnull {
-  background: #222;
+  background: rgba(0,0,0,0);
 }
 
 .navbar.scrolled {
