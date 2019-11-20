@@ -429,7 +429,7 @@ li {
   font-size: 0.8rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 200px) {
   .portfolio-item {
     max-width: none;
     margin: 0;
