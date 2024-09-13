@@ -41,6 +41,11 @@ li {
   background-color: #111;
 }
 
+.spacer-24-w {
+  height: 24px;
+  background-color: #fff;
+}
+
 .spacer-48-w {
   height: 48px;
   background-color: #fff;
