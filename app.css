@@ -36,6 +36,11 @@ li {
   text-shadow: 0.15rem 0.15rem #444;
 }
 
+.spacer-48 {
+  height: 48px;
+  background-color: #111;
+}
+
 .center-particles {
   position: relative;
   overflow: hidden;
@@ -314,7 +319,7 @@ li {
 }
 
 /* Portfolio  */
-#portfolio {
+#portfolio, #portfolio-2 {
   background: #111;
   color: #fff;
 }
