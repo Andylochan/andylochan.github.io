@@ -319,7 +319,12 @@ li {
 }
 
 /* Portfolio  */
-#portfolio, #portfolio-2 {
+#portfolio {
+  background: #111;
+  color: #fff;
+}
+
+#portfolio-2 {
   background: #111;
   color: #fff;
 }
