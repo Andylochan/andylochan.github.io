@@ -36,9 +36,14 @@ li {
   text-shadow: 0.15rem 0.15rem #444;
 }
 
-.spacer-48 {
+.spacer-48-b {
   height: 48px;
   background-color: #111;
+}
+
+.spacer-48-w {
+  height: 48px;
+  background-color: #fff;
 }
 
 .center-particles {
